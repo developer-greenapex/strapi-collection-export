@@ -1,0 +1,16 @@
+{
+  "name": "strapi-export-collection-lead",
+  "version": "1.0.0",
+  "description": "Effortlessly export Strapi collection data to CSV with filters like date range.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Export",
+    "Collection",
+    "Lead"
+  ],
+  "author": "Green Apex Solutions",
+  "license": "ISC"
+}

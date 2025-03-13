@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sitemapurls",
+  "info": {
+    "singularName": "sitemapurl",
+    "pluralName": "sitemapurls",
+    "displayName": "lead-urls"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "parent_sitemapurl": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::sitemap.sitemapurl"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    },
+    "content-type-builder": {
+      "visible": true
+    }
+  }
+}

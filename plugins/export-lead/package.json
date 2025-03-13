@@ -1,0 +1,50 @@
+{
+  "name": "export-lead",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "prop-types": "^15.7.2",
+    "react-scripts": "^5.0.1",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6",
+    "tailwindcss": "^3.4.10"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "name": "Export Lead",
+    "description": "Description of sitemap plugin",
+    "kind": "plugin",
+    "displayName": "Export Lead"
+  }
+}

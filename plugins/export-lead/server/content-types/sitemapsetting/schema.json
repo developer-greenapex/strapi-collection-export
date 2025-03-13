@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sitemapsettings",
+  "info": {
+    "singularName": "sitemapsetting",
+    "pluralName": "sitemapsettings",
+    "displayName": "Export Lead setting"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "contentType": {
+      "type": "string",
+      "required": true
+    },
+    "lastModified": {
+      "type": "boolean",
+      "default": true
+    },
+    "includePriority": {
+      "type": "boolean",
+      "default": false
+    },
+    "priority": {
+      "type": "string",
+      "default": "0.9"
+    },
+    "includeFrequency": {
+      "type": "boolean",
+      "default": false
+    },
+    "frequency": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
+    },
+    "sitemapurl": {
+      "relation": "oneToOne",
+      "target": "plugin::sitemap.sitemapurl",
+      "type": "relation"
+    }
+  }
+}
